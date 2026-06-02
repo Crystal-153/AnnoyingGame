@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://gi6wlaant47o"]
+
+[ext_resource type="Script" uid="uid://c318fmqg46qbs" path="res://end_game.gd" id="1_sjse8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_weimh"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="EndGame" type="Node" unique_id=1583785301]
+script = ExtResource("1_sjse8")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=24522817]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="." unique_id=1117850323]
+offset_top = 15.0
+offset_right = 1152.0
+offset_bottom = 74.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.13725491, 0.13725491, 0.13725491, 0.7764706)
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 5
+theme_override_font_sizes/font_size = 36
+text = "Congrats!!!"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=2080172206]
+offset_left = 449.0
+offset_top = 227.0
+offset_right = 697.0
+offset_bottom = 289.0
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_weimh")
+text = "Win The Game"
+
+[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
