@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ceoty10xj231y"]
+
+[ext_resource type="PackedScene" uid="uid://cnlctld0xq81n" path="res://start_screen.tscn" id="1_j2q8x"]
+[ext_resource type="PackedScene" uid="uid://cpy5cmc85jg31" path="res://game.tscn" id="2_112p8"]
+
+[node name="AnnoyingGame" type="Node" unique_id=1575975240]
+
+[node name="StartScreen" parent="." unique_id=806694445 instance=ExtResource("1_j2q8x")]
+
+[node name="Game" parent="." unique_id=1321399182 instance=ExtResource("2_112p8")]

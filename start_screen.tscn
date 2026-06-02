@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cnlctld0xq81n"]
+
+[node name="StartScreen" type="Node" unique_id=806694445]
+
+[node name="background" type="ColorRect" parent="." unique_id=1454797204]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Button" type="Button" parent="." unique_id=1690596466]
+offset_left = 393.0
+offset_top = 282.0
+offset_right = 750.0
+offset_bottom = 374.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_color = Color(0.72636527, 0.74698603, 0.76452976, 1)
+theme_override_font_sizes/font_size = 26
+text = "Play"
+
+[node name="Label" type="Label" parent="." unique_id=902262577]
+modulate = Color(0, 0, 0, 1)
+offset_top = 28.0
+offset_right = 1152.0
+offset_bottom = 87.0
+theme_override_colors/font_shadow_color = Color(0.14406255, 0.14406255, 0.14406255, 0.49019608)
+theme_override_constants/outline_size = 2
+theme_override_constants/shadow_outline_size = 7
+theme_override_font_sizes/font_size = 43
+text = "Annoying Game"
+horizontal_alignment = 1
