@@ -17,3 +17,7 @@ func _on_ball_mouse_entered() -> void:
 
 func randBall():
 	ball.position = Vector2(randi_range(0, 1152),randi_range(0,648))
+
+
+func _on_timer_timeout() -> void:
+	pass # Replace with function body.

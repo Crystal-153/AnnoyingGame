@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://cnlctld0xq81n"]
 
+[ext_resource type="Script" uid="uid://bs212y2gxv80r" path="res://start_screen.gd" id="1_ncxyx"]
+
 [node name="StartScreen" type="Node" unique_id=806694445]
+script = ExtResource("1_ncxyx")
 
 [node name="background" type="ColorRect" parent="." unique_id=1454797204]
 offset_right = 1152.0
@@ -29,3 +32,5 @@ theme_override_constants/shadow_outline_size = 7
 theme_override_font_sizes/font_size = 43
 text = "Annoying Game"
 horizontal_alignment = 1
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
